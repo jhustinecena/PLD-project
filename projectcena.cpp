@@ -4,7 +4,6 @@ using namespace std;
 
 int main() {
 
-    // simple data for the 4 items
     int id[4] = {1, 2, 3, 4};
     string name[4] = {"stick-o", "kape 3in1", "bread", "piattos"};
     double price[4] = {2.5, 2.0, 3.0, 5.5};
@@ -27,7 +26,6 @@ int main() {
         int choice;
         cin >> choice;
 
-        // basic fix if user types a letter
         if (cin.fail()) {
             cin.clear();
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
@@ -143,3 +141,4 @@ int main() {
 
     return 0;
 }
+
